@@ -37,6 +37,8 @@ while True:
         for i in data:
             
             write(i.strip()+"\n")
+        hotkey('ctrl', 'shift', 'end')
+        hotkey("delete")
     elif inp=="n":
         break
     else:
